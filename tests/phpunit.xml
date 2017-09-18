@@ -1,0 +1,15 @@
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/5.7/phpunit.xsd"
+        bootstrap="bootstrap.php"
+        verbose="true">
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./../src</directory>
+        </whitelist>
+    </filter>
+    <testsuites>
+        <testsuite suffix="Test.php" name="All Tests">
+            <directory>.</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
