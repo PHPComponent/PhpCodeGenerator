@@ -1,6 +1,6 @@
 {
   "name": "php-component/php-code-generator",
-  "description": "",
+  "description": "PHPComponent/PhpCodeGenerator is library for easy generating php code",
   "minimum-stability": "stable",
   "license": "BSD-3-Clause",
   "authors": [
